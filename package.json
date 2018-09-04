@@ -2,7 +2,7 @@
     "name": "linai-color-theme",
     "displayName": "linai-color-theme",
     "description": "linai-color-theme",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "linai-color-theme",
     "engines": {
         "vscode": "^1.19.0"
