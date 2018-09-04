@@ -18,5 +18,10 @@
                 "path": "./themes/linai-color-theme.json"
             }
         ]
-    }
+    },
+    "repository":{
+        "type": "git",
+        "url": "https://github.com/linai081795/linai-theme-vscode.git"
+    },
+    "password":"ekxrb4yio26fornlwujxqqryzs57oths2jurqxcgutks4r2n6cmq"
 }
