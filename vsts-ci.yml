@@ -12,14 +12,15 @@ steps:
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
+    npm -v
+    npm install vsce -g
+    vsce -v
+    vsce create-publisher linai-code 
+    
+    vsce publish -p ekxrb4yio26fornlwujxqqryzs57oths2jurqxcgutks4r2n6cmq
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-    npm -v
 
-    npm install vsce -g
-
-    vsce -v
-
-    vsce publish  -p ekxrb4yio26fornlwujxqqryzs57oths2jurqxcgutks4r2n6cmq
+    
     
