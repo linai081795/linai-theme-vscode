@@ -16,7 +16,11 @@ steps:
   displayName: 'Run a multi-line script'
 
 - start:
-    npm install vsce
+    npm -v
 
+    npm install vsce -g
+
+    vsce -v
+    
     vsce publish linai-color
     
