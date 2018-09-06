@@ -4,6 +4,7 @@
     "description": "linai-color-theme",
     "version": "0.0.2",
     "publisher": "code",
+    "icon":"/themes/icon/icon.png",
     "engines": {
         "vscode": "^1.19.0"
     },
