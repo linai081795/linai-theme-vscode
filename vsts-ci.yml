@@ -6,9 +6,12 @@
 steps:
   - script: |
       echo Add other tasks to build, test, and deploy your project.
+      
       npm -v
+      yarn --version
+
       npm install vsce -g
-      vsce -v
+      vsce -V
       
       vsce publish -p ekxrb4yio26fornlwujxqqryzs57oths2jurqxcgutks4r2n6cmq
 
