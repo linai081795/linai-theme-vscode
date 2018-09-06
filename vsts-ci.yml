@@ -9,7 +9,7 @@ steps:
       versionSpec: '10.x' 
       checkLatest: true
 
-  - script: 
+  - script: |
 
     echo Start the installation  
       
