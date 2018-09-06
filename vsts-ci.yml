@@ -4,17 +4,28 @@
 # https://aka.ms/yaml
 
 steps:
-  - script: |
-      echo Add other tasks to build, test, and deploy your project.
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '10.x' 
+      checkLatest: true
+
+  - script: 
+
+    echo Start the installation  
       
-       echo "${npm -v} vsce 版本" 
-      
-      npm install vsce -g
-      echo 安装vsce成功.
-      vsce -V
-      
-      vsce publish -p ekxrb4yio26fornlwujxqqryzs57oths2jurqxcgutks4r2n6cmq
-      echo "${vsce -V} vsce 版本" 
+    npm -v
+
+    echo NPM version
+    
+    
+    npm install vsce -g
+    echo Completion of vsce installation
+
+    vsce -V 
+
+    vsce publish -p ekxrb4yio26fornlwujxqqryzs57oths2jurqxcgutks4r2n6cmq
+    
+    echo End
 
 
     
