@@ -7,7 +7,8 @@ steps:
   - script: |
       echo Add other tasks to build, test, and deploy your project.
       
-      npm -v
+       echo "${npm -v} vsce 版本" 
+      
       npm install vsce -g
       echo 安装vsce成功.
       vsce -V
