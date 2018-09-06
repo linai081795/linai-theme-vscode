@@ -9,7 +9,6 @@ steps:
       npm -v
       npm install vsce -g
       vsce -v
-      vsce create-publisher linai-code 
       
       vsce publish -p ekxrb4yio26fornlwujxqqryzs57oths2jurqxcgutks4r2n6cmq
 
