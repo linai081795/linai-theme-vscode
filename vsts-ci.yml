@@ -8,12 +8,12 @@ steps:
       echo Add other tasks to build, test, and deploy your project.
       
       npm -v
-      yarn --version
-
       npm install vsce -g
+      echo 安装vsce成功.
       vsce -V
       
       vsce publish -p ekxrb4yio26fornlwujxqqryzs57oths2jurqxcgutks4r2n6cmq
+      echo "${vsce -V} vsce 版本" 
 
 
     
